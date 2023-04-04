@@ -31,6 +31,8 @@ public class TestNGDemo {
     @Test(dataProvider = "inputValues")
     public void testLoginFun(String username,String password){
         System.out.println(username+" "+password);
+
+        System.out.println("Some changes");
     }
 
 
